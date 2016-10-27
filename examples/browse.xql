@@ -37,7 +37,6 @@ declare option exist:serialize "method=html5 media-type=text/html omit-xml-decla
                             {facet:html-list-facets-as-buttons(facet:count($hits, $facet-defs//facet:facet-definition))}
                         </div>
                         <div class="col-md-8">
-                            <p>FILTER: {facet:facet-filter($facet-defs/child::*)}</p>
                             {
                                 for $hit in subsequence($hits,1,25)
                                 let $title := $hit/descendant::tei:title[1]
