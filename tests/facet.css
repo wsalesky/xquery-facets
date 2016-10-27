@@ -1,0 +1,6 @@
+/* Application styles could go here */
+
+/* Facet styles */
+.label-facet {background-color:#eee; color:#666; font-weight:normal; margin:.25em; display:inline-block;}
+.facet-label {margin-left:.5em; display:block; text-align:left; white-space: normal;}
+.facet .icon{margin-left:.25em;}
