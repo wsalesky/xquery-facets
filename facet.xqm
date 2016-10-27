@@ -18,7 +18,6 @@ xquery version "3.0";
 
 module namespace facet = "http://expath.org/ns/facet";
 import module namespace functx="http://www.functx.com";
-declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 (: External facet parameters :)
 declare variable $facet:fq {request:get-parameter('fq', '') cast as xs:string};
